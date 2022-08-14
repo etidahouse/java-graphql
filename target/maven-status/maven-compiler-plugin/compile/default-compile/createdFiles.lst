@@ -1,0 +1,5 @@
+data/BookRepository.class
+GraphQLQuery.class
+GraphQLEndpoint.class
+data/Author.class
+data/Book.class
