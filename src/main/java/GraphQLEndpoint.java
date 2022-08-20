@@ -26,7 +26,8 @@ public class GraphQLEndpoint extends HttpServlet {
     @Override
     public void init() {
         GraphQLSchema schema = SchemaParser.newParser()
-          .resolvers(new GraphQLQuery(new BookRepository()))
+          .resolvers(new GraphQLQuery(new BookRepository()), 
+        		  new GraphQLMutation(new BookRepository()))
           .file("schema.graphqls")
           .build()
           .makeExecutableSchema();
@@ -35,3 +36,5 @@ public class GraphQLEndpoint extends HttpServlet {
           .build();
     }
 }
+
+

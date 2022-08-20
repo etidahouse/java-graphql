@@ -20,5 +20,9 @@ public class BookRepository {
     public Book getBook(String title) {
     	return books.stream().filter(book -> book.getTitle().equals(title)).findAny().orElse(null);
     }
+    
+    public void createBook(Book book) {
+    	books.add(book);
+    }
 
 }

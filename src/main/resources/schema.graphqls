@@ -13,6 +13,10 @@ type Query {
     getBook(title: String): Book
 }
 
+type Mutation {
+    createBook(title: String, name: String, surname: String): Book
+}
+
 schema {
     query: Query
     mutation: Mutation
