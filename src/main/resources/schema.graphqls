@@ -11,6 +11,7 @@ type Author {
 type Query {
     allBooks: [Book]
     getBook(title: String): Book
+    searchBooksByTitle(title: String): [Book]
 }
 
 type Mutation {

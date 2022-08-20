@@ -22,5 +22,9 @@ public class GraphQLQuery implements GraphQLQueryResolver {
     	return repository.getBook(title);
     }
     
+    public List<Book> searchBooksByTitle(String title) {
+        return repository.searchByTitle(title);
+    }
+    
 }
 
