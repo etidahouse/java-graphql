@@ -27,6 +27,19 @@ query {
 }
 ```
 
+Search books by title :
+```json
+query {
+searchBooksByTitle(title: "Title") {
+    title,
+  	author {
+      name,
+      surname
+    }
+  }
+}
+```
+
 ### Mutation
 
 Create Book :
