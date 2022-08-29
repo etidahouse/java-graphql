@@ -9,7 +9,7 @@ public class Author {
 
     }
 
-	public Author(String name, String surname) {
+    public Author(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }
@@ -27,11 +27,11 @@ public class Author {
     }
     
     public void setName(String name) {
-		this.name = name;
-	}
+	this.name = name;
+    }
 
-	public void setSurname(String surname) {
-		this.surname = surname;
-	}
+    public void setSurname(String surname) {
+	this.surname = surname;
+    }
 
 }
