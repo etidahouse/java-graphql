@@ -15,7 +15,7 @@ import java.io.IOException;
 public class GraphQLEndpoint extends HttpServlet {
 
     private static final long serialVersionUID = 7305801693361346180L;
-	private SimpleGraphQLHttpServlet graphQLServlet;
+    private SimpleGraphQLHttpServlet graphQLServlet;
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) 
