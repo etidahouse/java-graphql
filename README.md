@@ -5,7 +5,7 @@
 
 ## GraphQL
 
-[GraphQL documentation] (https://graphql.org/learn/)
+[GraphQL documentation](https://graphql.org/learn/)
 
 ## Request API
 
