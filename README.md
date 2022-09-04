@@ -3,7 +3,11 @@
 ## Requirements
 [Java 11 (openjdk)](https://openjdk.org/projects/jdk/11/), [Maven](https://maven.apache.org/), [Payara Community Server](https://www.payara.fish/downloads/payara-platform-community-edition/)
 
-## Queries
+## GraphQL
+
+[GraphQL documentation] (https://graphql.org/learn/)
+
+## Request API
 
 ### Query
 
