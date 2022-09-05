@@ -5,7 +5,9 @@
 
 ## GraphQL
 
-[GraphQL documentation](https://graphql.org/learn/)
+[GraphQL documentation](https://graphql.org/learn/) 
+
+[Java GraphQL](https://www.graphql-java.com/)
 
 ## Request API
 
