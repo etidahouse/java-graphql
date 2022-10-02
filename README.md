@@ -29,7 +29,7 @@ The service is deployed at http://localhost:8085/java-graphql/
 ### Query
 
 Get all books :
-```json
+```
 query {
   allBooks {
     title,
@@ -39,7 +39,7 @@ query {
 ```
 
 Get one book :
-```json
+```
 query {
    getBook(title: "mon titre") {
     title,
@@ -49,7 +49,7 @@ query {
 ```
 
 Search books by title :
-```json
+```
 query {
 searchBooksByTitle(title: "Title") {
     title,
@@ -64,7 +64,7 @@ searchBooksByTitle(title: "Title") {
 ### Mutation
 
 Create Book :
-```json
+```
 mutation {
 createBook(title: "mon titre", name: "mon name", 
   surname: "mon surname") {
